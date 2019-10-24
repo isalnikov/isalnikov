@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+        <meta http-equiv="Content-Language" content="ru-RU" />
+        <meta http-equiv="Content-Type" Content="text/html; Charset=UTF-8">
+ 	<meta http-equiv="Expires" content="Tue, 01 Jan 1980 00:00:00 GMT" />
+ 	<meta NAME="DESCRIPTION" CONTENT="isalnikov.com фотограф Игорь Сальников фотогалерея Programmer Photographer and Traveler isalnikov" />
+ 	<meta NAME="KEYWORDS" CONTENT="isalnikov.com фотограф Игорь Сальников Programmer Photographer and Traveler isalnikov" />
+ 	<meta NAME="ROBOTS" CONTENT="NOARCHIVE" />
+ 	<meta property="og:image" content="http://cs10879.userapi.com/u29055700/75027465/z_141cb66a.jpg" />
+ 	<meta property="og:title" content="isalnikov.com фотограф игорь сальников фотогалерея Programmer Photographer and Traveler isalnikov" />
+ 	<meta property="og:description" content="isalnikov.com фотограф игорь сальников фотогалерея Programmer Photographer and Traveler isalnikov" />
+ 	<meta property="og:locale:alternate" content="ru_RU" />
+        <title>Программист</title>
+    </head>
+    <body>
+        <pre id="message">
+        </pre>        
+        <pre id="info" style="color: white">
+Добрый день.
+
+Я &mdash; Сальников Игорь Григорьевич. 
+
+Разработка ПО:
+    Разработка на Java SE/EE, Spring. Опыт работы с GWT.
+    Разработка сайта телекомпании www.ntv.ru.
+    Разработка сайта по продаже лотерейных продуктов компании www.stoloto.ru. 
+
+Администрирование:
+    Системы управления версиями (SVN, git, Mercurial и пр.).
+    Системы отслеживания ошибок (Mantis и пр.).
+    Автоматизация сборки проектов (Ant, Maven и пр.).
+    Системы внутренней базы знаний (wiki).
+
+Консультирование:
+    Экспертный анализ исходного кода и архитектуры проекта на предмет скрытых ошибок.
+    Рекомендации по повышению эффективности разработки.
+
+Контакты:
+    email: isalnikov1@gmail.com
+    г.Москва &copy; 2020
+     </pre>        
+        <script>
+            var speed = 30;
+            var text = document.getElementById("info").textContent
+            var index = 0;
+            function printChar() {
+                if (index >= text.length) {
+                    return;
+                }
+                var ch = text.charAt(index);
+                var origText = text.substr(0, index);
+                document.getElementById("message").textContent = origText + "_";
+                index = index+1;
+                var timeout = speed;
+                if (ch === '\n') {
+                    timeout = 350;
+                }
+                setTimeout(printChar, timeout); 
+            }
+            printChar();
+        </script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57157455-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
